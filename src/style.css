@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Poppins', sans-serif;
+}
+button{
+    cursor: pointer;
+}
+textarea, input{
+    outline: none;
+}
+
+.heading{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.door-div{
+    padding: 3rem 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.door-btn{
+    background-color: grey;
+    width: 8rem;
+    height: 8rem;
+    font-size: 3rem;
+}
+.game-control-btns, .replay-btn{
+    font-size: 1.5rem;
+}
+.container{
+    width: 100vw;
+}
+.door-sub-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#choosen-door{
+    background-color: rgb(50,150,50);
+}
+.info-div{
+    padding: 0.4rem;
+    margin: 0.4rem 0;
+}
+.info-div-element{
+    display: flex;
+    align-items: center;
+}
+.info-div-element-1{
+    font-weight: 700;
+    font-size: 1.15rem;
+}
+.info-div-element-2{
+    font-weight: 600;
+    font-size: 1.7rem;
+    margin-left: 10px;
+    font-style: italic;
+}
+#info-element-number{
+    color: rgb(105, 19, 176);
+}
+#info-element-percentage{
+    color: rgb(231, 127, 0);
+}
+.game-controls-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.result-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.result{
+    font-weight: 700;
+    font-size: 2rem;
+}
+#no-cursor-btns{
+    cursor: not-allowed;
+}
